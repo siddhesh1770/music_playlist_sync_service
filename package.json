@@ -1,0 +1,19 @@
+{
+  "name": "music_playlist_sync_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhesh1770/music_playlist_sync_service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhesh1770/music_playlist_sync_service/issues"
+  },
+  "homepage": "https://github.com/siddhesh1770/music_playlist_sync_service#readme"
+}
