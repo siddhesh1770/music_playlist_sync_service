@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/siddhesh1770/music_playlist_sync_service/issues"
   },
-  "homepage": "https://github.com/siddhesh1770/music_playlist_sync_service#readme"
+  "homepage": "https://github.com/siddhesh1770/music_playlist_sync_service#readme",
+  "dependencies": {
+    "spotify-web-api-node": "^5.0.2"
+  }
 }
