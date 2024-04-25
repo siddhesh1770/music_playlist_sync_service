@@ -12,6 +12,15 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/service/spotify.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "app",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/app.js"
         }
     ]
 }
