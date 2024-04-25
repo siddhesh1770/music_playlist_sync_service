@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/siddhesh1770/music_playlist_sync_service/issues"
   },
-  "homepage": "https://github.com/siddhesh1770/music_playlist_sync_service#readme"
+  "homepage": "https://github.com/siddhesh1770/music_playlist_sync_service#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^6.12.8",
+    "spotify-web-api-node": "^5.0.2"
+  }
 }
