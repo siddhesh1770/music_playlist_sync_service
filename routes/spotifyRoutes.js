@@ -22,10 +22,7 @@ router.route('/callback').get(async (req, res) => {
         const me = await spotifyApi.getMe();
  
         await User.create({
-            api_config: {
-                accessToken,
-                refreshToken,
-            },
+            api_config: data.body,
             name: me.body.display_name,
             spotify_id: me.body.id,
             id: me.body.id,

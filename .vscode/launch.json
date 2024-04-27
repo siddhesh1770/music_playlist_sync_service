@@ -21,6 +21,19 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "spotify to yt",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "env": {
+                "MONGO_URI": "mongodb+srv://appuser:appuser123@cluster0.txzwhgn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+                "USER_ID": "662aa976ff27945098c8085c"
+            },
+            "program": "${workspaceFolder}/scripts/syncSpotifyToYTMusic.js"
         }
     ]
 }
